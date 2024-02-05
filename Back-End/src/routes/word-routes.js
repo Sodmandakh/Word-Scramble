@@ -6,5 +6,5 @@ import {
 export const wordRouter = express.Router();
 
 
-wordRouter.get("/word", getAllWord),
+wordRouter.get("/getAllWord", getAllWord),
 wordRouter.post("/createWord", createWord)

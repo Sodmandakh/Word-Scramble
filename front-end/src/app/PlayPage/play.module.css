@@ -1,0 +1,109 @@
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(89, 133, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.boxName{
+    font-size: 30px;
+    width: 500px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.zras{
+    height: 1px;
+    width: 500px;
+    background-color: black;
+}
+.pnaxenios{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.hint{
+    font-size: 19px;
+    width: 450px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 25px;
+}
+.time{
+    font-size: 19px;
+    width: 450px;
+    margin-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 25px;
+}
+.input{
+    width: 400px;
+    height: 60px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: gray;
+    padding-left: 10px;
+    font-size: 18px;
+    margin: 20px;
+    margin-top: 40px;
+}
+.input::placeholder{
+    color:  gray;
+}
+.refresh{
+    width: 190px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.check{
+    width: 190px;
+    height: 60px;
+    background-color: rgb(53, 107, 231);
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+.coll{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.word{
+    font-size: 50px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.htmlCss{
+    font-size: 50px;
+    color: rgb(89, 133, 232);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 800px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
